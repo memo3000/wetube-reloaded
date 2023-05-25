@@ -1,0 +1,21 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch a videos.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memo3000/wetube-reloaded.git"
+  },
+  "scripts": {
+    "win": "node index.js"
+  },
+  "author": "KJK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/memo3000/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/memo3000/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
