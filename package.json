@@ -7,7 +7,7 @@
     "url": "git+https://github.com/memo3000/wetube-reloaded.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "KJK",
   "license": "MIT",
@@ -17,5 +17,11 @@
   "homepage": "https://github.com/memo3000/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "nodemon": "^2.0.22"
   }
 }
